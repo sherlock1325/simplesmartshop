@@ -1,1 +1,2 @@
-# simplesmartshop
+# SmartShop
+
