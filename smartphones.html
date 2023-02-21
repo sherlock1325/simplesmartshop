@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/smartphones.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand d-flex" href="#">
+        <img class="logo mr-auto" src="images/1.jpg" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link mr-4" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-4" href="smartphones.html">Smartphones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-4" href="computers.html">Computers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-4" href="televisions.html">Televisions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-4" href="earphones.html">Earphones</a>
+            </li>
+            <li class="nav-item mr-5">
+                <select class="btn language" class="selectpicker" data-width="fit">
+                    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Russian</option>
+                    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Uzbek</option>
+                </select>
+            </li>
+
+        </ul>
+        <div class="account">
+            <button class="btn my-2 my-sm-0 ml-5 mr-2" type="submit">
+                <img src="images/2.png" class="sign" alt="account">
+                <!--Account-->
+            </button>
+        </div>
+        <div class="cart" id="Cart">
+            <span data-toggle="modal" data-target="#staticBackdrop">
+                <button class="btn my-2 my-sm-0" type="submit">
+                    <span id="CartCount" class="badge badge-danger m-0" type="submit">0</span>
+                    <img class="my-cart" src="images/3.png" alt="cart">
+                </button>
+            </span>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="card" id="id1">
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" id="id2">
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" id="id3">
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" id="id4">
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" id="id5">
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" id="id6">
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" id="id7">
+
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" id="id8">
+
+            </div>
+        </div>
+
+
+        <div id="id01" class="w3-modal my-modal">
+            <div class="w3-modal-content w3-card-6 my-content">
+                <header class="w3-container w3-teal header">
+        <span onclick="document.getElementById('id01').style.display='none'"
+              id="close" class="w3-button w3-display-topright">&times;</span>
+                    <h2 id="header-name">Modal Header</h2>
+                </header>
+                <div class="w3-container modal-container">
+                    <div class="row" id="modal-row">
+
+                    </div>
+                </div>
+                <!--                <footer class="w3-container footer w3-teal">-->
+                <!--                    <p id="footer-name">Modal Footer</p>-->
+                <!--                </footer>-->
+            </div>
+        </div>
+
+        <div class="Cart" id="modal-product">
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                 aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="col-lg-12">
+                                <table class="table">
+                                    <thead class="thread">
+                                    <tr class="tr">
+                                        <th scope="col" class="th th2">Product</th>
+                                        <th scope="col" class="th th3">Name</th>
+                                        <th scope="col" class="th th4">Count</th>
+                                        <th scope="col" class="th th5">Price</th>
+                                        <th scope="col" class="th th6">Delete</th>
+                                    </tr>
+                                    </thead>
+
+                                    <tbody class="tbody" id="Table">
+                                    </tbody>
+                                </table>
+                                <h1 id="no">There is no product in the basket!</h1>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <h4 class="mr-auto" id="TotalCount"><b class="text-success">Total Count:</b> 0</h4>
+                            <h4 class="mr-auto" id="TotalPrice"><b class="text-danger">Total Price:</b> 0 $</h4>
+                            <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+                            <button id="Payment" type="button" data-dismiss="modal" class="btn btn-success">Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+</body>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/smartphones.js"></script>
+</html>
+

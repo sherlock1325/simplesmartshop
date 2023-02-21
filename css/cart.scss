@@ -1,0 +1,133 @@
+body {
+  background-color: #d714e0;
+
+  .navbar {
+    background-color: white;
+
+    .navbar-brand {
+      padding: 0;
+
+      .logo {
+        width: 20%;
+        height: 20%;
+      }
+    }
+
+    .collapse {
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: #d714e0;
+            font-size: 17px;
+            font-weight: 500;
+          }
+
+          .language {
+            color: #d714e0;
+            font-size: 17px;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .account {
+        .sign {
+          width: 40px;
+        }
+      }
+
+      .cart {
+        position: relative;
+
+        .my-cart {
+          width: 40px;
+        }
+
+        .badge {
+          position: absolute;
+          top: -4px;
+          left: 27px;
+        }
+      }
+    }
+  }
+
+  .container {
+    background-color: white;
+
+    .row {
+      .col-lg-12 {
+        .table {
+          margin-bottom: 0;
+          color: gray;
+          font-size: 17px;
+          font-weight: 500;
+
+          .thread {
+            .tr {
+              th {
+                width: 200px;
+              }
+
+              .th1 {
+                width: 10%;
+
+                img {
+                  width: 30%;
+                }
+              }
+
+            }
+          }
+
+          .tbody {
+            .product {
+              .number {
+                padding-top: 30px;
+                width: 200px;
+
+              }
+
+              .img {
+                width: 10%;
+                padding: 0;
+
+                img {
+                  width: 80%;
+                  margin-left: -20px;
+                }
+              }
+
+              .name {
+                padding-top: 30px;
+                width: 200px;
+              }
+
+              .count {
+                padding-top: 30px;
+                width: 200px;
+
+                .input-count {
+                  width: 30%;
+                  margin-top: -30px;
+                }
+
+              }
+
+              .price {
+                padding-top: 30px;
+                width: 200px;
+
+              }
+
+              .delete {
+                padding-top: 10px;
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

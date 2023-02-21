@@ -1,0 +1,88 @@
+body {
+  background-color: #d714e0;
+}
+body .navbar {
+  background-color: white;
+}
+body .navbar .navbar-brand {
+  padding: 0;
+}
+body .navbar .navbar-brand .logo {
+  width: 20%;
+  height: 20%;
+}
+body .navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #d714e0;
+  font-size: 17px;
+  font-weight: 500;
+}
+body .navbar .collapse .navbar-nav .nav-item .language {
+  color: #d714e0;
+  font-size: 17px;
+  font-weight: 500;
+}
+body .navbar .collapse .account .sign {
+  width: 40px;
+}
+body .navbar .collapse .cart {
+  position: relative;
+}
+body .navbar .collapse .cart .my-cart {
+  width: 40px;
+}
+body .navbar .collapse .cart .badge {
+  position: absolute;
+  top: -4px;
+  left: 27px;
+}
+body .container {
+  background-color: white;
+}
+body .container .row .col-lg-12 .table {
+  margin-bottom: 0;
+  color: gray;
+  font-size: 17px;
+  font-weight: 500;
+}
+body .container .row .col-lg-12 .table .thread .tr th {
+  width: 200px;
+}
+body .container .row .col-lg-12 .table .thread .tr .th1 {
+  width: 10%;
+}
+body .container .row .col-lg-12 .table .thread .tr .th1 img {
+  width: 30%;
+}
+body .container .row .col-lg-12 .table .tbody .product .number {
+  padding-top: 30px;
+  width: 200px;
+}
+body .container .row .col-lg-12 .table .tbody .product .img {
+  width: 10%;
+  padding: 0;
+}
+body .container .row .col-lg-12 .table .tbody .product .img img {
+  width: 80%;
+  margin-left: -20px;
+}
+body .container .row .col-lg-12 .table .tbody .product .name {
+  padding-top: 30px;
+  width: 200px;
+}
+body .container .row .col-lg-12 .table .tbody .product .count {
+  padding-top: 30px;
+  width: 200px;
+}
+body .container .row .col-lg-12 .table .tbody .product .count .input-count {
+  width: 30%;
+  margin-top: -30px;
+}
+body .container .row .col-lg-12 .table .tbody .product .price {
+  padding-top: 30px;
+  width: 200px;
+}
+body .container .row .col-lg-12 .table .tbody .product .delete {
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=cart.css.map */

@@ -1,0 +1,39 @@
+body {
+  background-color: #d714e0;
+}
+body .navbar {
+  background-color: white;
+}
+body .navbar .navbar-brand {
+  padding: 0;
+}
+body .navbar .navbar-brand .logo {
+  width: 20%;
+  height: 20%;
+}
+body .navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #d714e0;
+  font-size: 17px;
+  font-weight: 500;
+}
+body .navbar .collapse .navbar-nav .nav-item .language {
+  color: #d714e0;
+  font-size: 17px;
+  font-weight: 500;
+}
+body .navbar .collapse .account .sign {
+  width: 40px;
+}
+body .navbar .collapse .cart {
+  position: relative;
+}
+body .navbar .collapse .cart .my-cart {
+  width: 40px;
+}
+body .navbar .collapse .cart .badge {
+  position: absolute;
+  top: -4px;
+  left: 27px;
+}
+
+/*# sourceMappingURL=style.css.map */
